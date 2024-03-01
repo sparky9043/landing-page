@@ -75,14 +75,39 @@ body {
 }
 
 /* Quote Section */
-.quote p {
+.quote-container {
+  background-color: #E5E7EB;
+  padding: 5vh;
+}
+
+.quote {
+  width: 40vw;
+  margin: 0 auto;
+  padding: 2vh;
+}
+
+.quote p:nth-child(1) {
   font-size: 36px;
+  font-style: italic;
+  margin: 0 auto;
+}
+
+.quote p:nth-child(2) {
+  text-align: right;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 12px 36px;
 }
 
 /* Call to Action Section */
+.action {
+  background-color: #3882F6;
+}
 
 /* Footer */
-
+.footer {
+  background-color: #1F2937;
+}
 
 ul {
   list-style: none;
