@@ -65,13 +65,48 @@ body {
   background-color: #3882F6;
   border-style: none;
   border-radius: 6px;
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 700;
 }
 
+
+.intro img {
+  width: 100%;
+  max-width: 720px;
+  max-height: 360px;
+  object-fit: cover;
+  flex: auto;
+}
+
 /* Information Section */
+.information {
+  text-align: center;
+  padding: 48px;
+}
+
 .information h2 {
   font-size: 36px;
+  padding-bottom: 48px;
+}
+
+.items {
+  display: flex;
+  gap: 48px;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  max-width: 150px;
+}
+
+.card img {
+  width: 100%;
+  min-width: 0;
+  border-radius: 20px;
+  margin: 12px 0;
+
 }
 
 /* Quote Section */
@@ -120,12 +155,4 @@ a {
 
 p {
   font-family: "Roboto";
-}
-
-img {
-  width: 100%;
-  max-width: 700px;
-  max-height: 300px;
-  object-fit: cover;
-  flex: auto;
 }
