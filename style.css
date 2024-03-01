@@ -94,6 +94,7 @@ body {
   display: flex;
   gap: 48px;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .card {
@@ -104,7 +105,7 @@ body {
 
 .card img {
   width: 100%;
-  min-width: 0;
+  min-width: 150px;
   border-radius: 24px;
   margin: 12px 0;
 
