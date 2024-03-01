@@ -28,7 +28,7 @@ body {
 
 .header .header-link {
   display: flex;
-  gap: 16px;
+  gap: 48px;
 }
 
 .header .header-logo {
@@ -65,6 +65,8 @@ body {
   background-color: #3882F6;
   border-style: none;
   border-radius: 6px;
+  font-size: 20px;
+  font-weight: 700;
 }
 
 /* Information Section */
@@ -98,7 +100,7 @@ p {
 img {
   width: 100%;
   max-width: 700px;
-  max-height: 340px;
+  max-height: 300px;
   object-fit: cover;
-  flex: 1;
+  flex: auto;
 }
