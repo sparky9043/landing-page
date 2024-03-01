@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+/* hero section */
+.hero {
+  font-size: 18px;
+  font-family: "Merriweather";
+}
+
+.header .header-logo {
+  font-size: 24px;
+}
+
+.intro h1 {
+  font-size: 48px;
+}
+
+/* Information Section */
+.information h2 {
+  font-size: 36px;
+}
+
+/* Quote Section */
+.quote p {
+  font-size: 36px;
+}
+
+/* Call to Action Section */
+
+/* Footer */
+
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-family: "Roboto";
+}
